@@ -2,10 +2,9 @@
 require "pry"
 
 def position_taken?(board, index)
-  int = index - 1
-  if board[int] == " " || board[int] == "" || board[int] == nil
+  if board[index] == " " || board[index] == "" || board[index] == nil
     false
-  elsif board[int] == "X" || board[int] == "O"
+  elsif board[index] == "X" || board[index] == "O"
     true
   end
 end
