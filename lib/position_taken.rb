@@ -7,5 +7,6 @@ def position_taken?(board, index)
     false
   elsif board[int] == "X" || board[int] == "O"
     true
+    binding.pry
   end
 end
